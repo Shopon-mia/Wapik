@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+	padding:0;
+}
+body{
+
+}
+header{
+
+width: 100%;
+
+background: #214f51 url(../images/banner.jpg);
+
+max-width: 100%;
+
+background-size: cover;
+
+height: 500px;
+background-blend-mode: multiply;
+}
+.container{width: 80%;margin: auto;}
+.uper{}
+.flex{display: flex;}
+.head{}
+.main-logo{width: 50%;padding: 40px 0 40px;}
+.main-logo span{width: 2px;height: 20px;background-color: #fff;display: block;margin: 0 30px 0;}
+.main-logo img{}
+.main-logo a{}
+.main-logo p{color: #fff;}
+.head{display: flex;width: 50%;}
+.head nav{padding: 32px 0 20px 0;}
+.head ul{list-style: none;text-align: center;}
+.head li{display: inline-block;}
+.head a{
+	text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 12px;
+}
+.head .get{background: #708888;padding: 9px 0px;}
+header span{width: 90%;height: 2px;display: block;background-color: #70935edb;margin: auto;}
+.lower{margin-top: 200px;}
+.lower h1{color: #fff;}
+.lower p{color: #fff;margin-bottom: 35px;width: 47%;}
+.lower a{color: #fff;background-color: seagreen;padding: 17px 46px;}
+.feature-section{}
+.feature{}
+.upper-level{margin-top: 50px;text-align: center;}
+.upper-level h1{margin-bottom: 5px;color: #186565;}
+.upper-level span{width: 7%;height: 2px;background-color: gray;display: block;margin: auto;}
+.upper-level p{margin: 12px 0 55px 0px;color: #186565;}
+.feature-item .flex{}
+.feature-item{width: 33.33%;text-align: center;padding: 20px 14px;}
+.feature-item img{}
+.feature-item h4{color: #186565;}
+.feature-item p{color: #186565;}
+.middle{display: block;text-align: center;margin-bottom: 50px;}
+.lower-level{}
+.lower-item{margin-bottom: 65px;}
+.same{}
+.same-1{}
+.lower-level img{}
+.lower-level h4{padding: 7px 0px 0px 20px;color: #186565;}
+.lower-level p{padding: 10px 42px 0px 0px;color: #186565;}
+.template{
+	width: 100%;
+
+background: url(../images/perfect-template.jpg);
+
+    background-size: auto;
+
+max-width: 100%;
+
+background-size: cover;
+
+height: 610px;
+}
+.items{text-align: center;color: #186565;}
+.items p{padding-top: 9px;margin-bottom: 20px;}
+.items span{width: 5%;height: 2px;display: block;background-color: #186565;margin: auto;}
+.items h2{padding: 50px 0px 8px 0px;}
+.item-value{color: #186565;width: 400px;align-items: right;padding: 50px 0px 0 650px;}
+.item-value ul{}
+.item-value li{list-style: none;display: inline;line-height: 1.7;color: cadetblue;font-size: 16px;}
+.item-value ul i{}
+.beauty-section{padding: 100px 0px 100px 0px;}
+.beauty{color: #84A8A6;}
+.beauty P{padding: 120px 216px 40px 74px;}
+.beauty h5{padding: 0px 0px 2px 73px;}
+.beauty h6{padding-left: 73px;}
+.beauty img{}
+.map-section{background-color: #EFF1EC;padding: 61px 0px 50px 0px;}
+.map-section .para{}
+.map-section .para p{padding-right: 79px;color: #87ABA7;}
+.map-section .para h1{color: #105F5E;padding-bottom: 10px;}
+.map-section .map{width: 54%;}
+.map-section img{}
+.plan-section{padding: 65px 0px 50px 0px;}
+.pricing{text-align: center;}
+.pricing h2{color: #0E5E5D;padding-bottom: 8px;}
+.pricing span{width: 7%;height: 2px;display: block;background: #0E5E5D;margin: auto;}
+.pricing p{color: #93B1B1;padding: 15px 0px 10px 0px;}
+.dollar-section{width: 70%;margin: auto;padding: 35px 0 20px;}
+.dollar{width: 33.33%;border: 1px solid;padding-bottom: 40px;}
+.dollar h3{text-align: center;color: #70B048;padding-top: 30px;}
+.dollar h1{text-align: center;color: #0F5F5B;font-size: 60px;}
+.dollar strong{text-align: center;color: #0E5F5C;display: block;}
+.dollar p{text-align: center;color: #85AAA9;padding: 12px 96px 34px 92px;}
+.dollar a{text-align: center;background: #83A7A5;text-decoration: none;padding: 10px;margin-left: 25%;color: #fff;}
+.dollar .middle-dollar{}
+.included-section{padding-bottom: 70px;}
+.included-section h2{text-align: center;color: #3E7F7A;margin: 33px 0px 11px 0px;}
+.included-section span{width: 7%;height: 2px;display: block;background: #83A7A5;margin: auto;}
+.icon{margin: 32px 0px 0px 0px;padding-left: 5%;}
+.included{width: 33.33%;margin: auto;color: #8BADAA;}
+.included ul{}
+.included ul li{list-style: none;display: inline;line-height: 1.7;}
+.help-section{}
+.help-section img{display: block;text-align: center;margin: auto;padding-bottom: 10px;}
+.help-section h1{text-align: center;color: #6EB047;padding-bottom: 10px;}
+.help-section span{width: 6%;height: 2px;display: block;background: #6EB047;margin: auto;}
+.help-section p{text-align: center;color: #98B6B5;padding: 2% 20%;}
+.help-section h4{text-align: center;color: #317770;}
+.download-section{
+	background-image: url(../images/download.jpg);
+	background-size: cover;
+	max-width: 100%;
+	
+	height: 177px;
+}
+.download-section .download{width: 60%;margin: 65px 0px 0px 50px;}
+.download-section .download h1{padding: 0px 0px 2px 0px;color: #105F5B;}
+.download-section .download p{color: #83A7A5;}
+.download-section .download .down{}
+.download-section .download a{text-align: center;background: #3FD553;text-decoration: none;padding: 10px;margin-left: 25%;color: #fff;}
+.footer-section{padding: 100px 0px 5px 0px;}
+.footer-section .footer{padding: 0% 5% 4% 7%;line-height: 1.7;}
+.footer-section .footer h1{color: #0F5F5B;padding: 0px 0px 0px 0px;}
+.footer-section .footer a{color: #0F5F5B;}
+.footer-section .footer p{color: #84A6A5;padding: 0px 0px 0px 0px;}
+.footer-section .footer h4{color: #0F5F5B;list-style: none;}
+.footer-section .footer nav{}
+.footer-section .footer ul{list-style: none;}
+.footer-section .footer ul li{color: #82A7A5;}
+.footer-section .footer .mail{padding: 0px 0px 0px 11px;width: 50%;text-align: justify;}
+.footer-section .footer .email{border: 1px solid;background: #EFF1EC;padding: 5px 0px 0px 0px;margin-top: 10px;}
+.footer-section .footer img{padding: 4px 0px 0px 71px;}
+.footer-section span{width: 69%;height: 2px;display: block;margin: auto;background: #F1F3EE;}
+.social{}
+.social .logo{width: 50%;padding: 4px 40px;color: #84A6B0;}
+.social p{padding-left: 7%;}
+.social .logo ul{text-align: end;list-style: none;}
+.social .logo ul li{list-style: none;display: inline-block;}
+.social .logo ul li a{font-size: 32px;letter-spacing: 10px;}
+.facebook{}
+.linkedin{color: grey;}
+.twitter{color: #54ABEE;}
+.instragram{color: #3F729C;}
+.youtube{color: red;}
+
+
+
+
+
+
+
